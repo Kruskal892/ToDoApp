@@ -1,0 +1,22 @@
+:root {
+    --white-color: #fff;
+    --main-color: #784BA0;
+    --grey-color: #edeef0;
+    --pink-gradient: #FF3CAC;
+    --blue-gradient: #2B86C5
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+
+
+.row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}

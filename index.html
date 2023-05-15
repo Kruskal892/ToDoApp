@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Css -->
+    <link rel="stylesheet" href="./assests/base.css">
+    <link rel="stylesheet" href="./assests/style.css">
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <title>My Simple Todo App</title>
+</head>
+<body>
+    <div class="container">
+        <div class="container__header">
+            <h2 class="container__header-title">My Todo List
+                <img src="./assests/img/icon.png" alt="">
+            </h2>
+
+            <div class="container__body row">
+                <input type="text" name="" id="input-bar" placeholder="Add your task here">
+                <button onclick="addTask()">Add Task</button>
+            </div>
+
+            <ul class="header__list" id="task-list"> 
+                <!-- <li class="header__list-item checked">Task 1</li>
+                <li class="header__list-item">Task 2</li>
+                <li class="header__list-item">Task 3</li> -->
+            </ul>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
